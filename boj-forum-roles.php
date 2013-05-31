@@ -80,7 +80,6 @@ class BOJ_Forum_Roles {
          * Juan Mendez ( update back to previous role )
          */
         $users = get_users( array('meta_key'=>'old_forum_role') );
-        var_error_array( $users );
 
         foreach( $users as $user )
         {
